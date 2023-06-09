@@ -9,6 +9,16 @@ return {
         require("darkplus")
       end,
     },
+    {
+      "nvim-neo-tree/neo-tree.nvim",
+      opts = {
+        enable_git_status = false,
+        source_selector = {
+            winbar = false,
+            statusline = false
+        }
+      }
+    }
   },
   
   -- allows to yank and paste without using the + register
